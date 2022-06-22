@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <assert.h>
-
+enum MajorColor {WHITE,RED,BLACK,YELLOW,VIOLET};
+enum MinorColor {BLUE,ORANGE,GREEN,BROWN,SLATE};
 int GetPairNumberFromColor(MajorColor, MinorColor);
-void TestPairtoNumber(MajorColor, MinorColor,int)
+void TestPairtoNumber(MajorColor, MinorColor,int);
 int printColorMap() {
     const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
     const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
