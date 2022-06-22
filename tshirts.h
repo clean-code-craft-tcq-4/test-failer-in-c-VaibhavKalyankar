@@ -1,1 +1,1 @@
-
+char size(int);
