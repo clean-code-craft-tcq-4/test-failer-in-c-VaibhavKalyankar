@@ -32,6 +32,7 @@ int main() {
     int result = printColorMap();
     assert(result == 25);
     TestPairtoNumber(WHITE,BROWN,4);
+    TestPairtoNumber(YELLOW,BROWN,16);
     printf("All is well (maybe!)\n");
     return 0;
 }
