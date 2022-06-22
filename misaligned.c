@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 
+int GetPairNumberFromColor(MajorColor, MinorColor);
+void TestPairtoNumber(MajorColor, MinorColor,int)
 int printColorMap() {
     const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
     const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
@@ -13,9 +15,21 @@ int printColorMap() {
     return i * j;
 }
 
+int GetPairNumberFromColor(MajorColor Majorcolor, MinorColor Minorcolor)
+{
+    return Mojorcolor * 5 + Minorcolor + 1;
+}
+
+void TestPairtoNumber(MajorColor Majorcolor, MinorColor Minorcolor,int ExpPairNumber)
+{
+    PairNumber = GetPairNumberFromColor(Majorcolor,Minorcolor);
+    assert(PairNumber == ExpPairNumber);
+}
+
 int main() {
     int result = printColorMap();
     assert(result == 25);
+    TestPairtoNumber(WHITE,BROWN,4);
     printf("All is well (maybe!)\n");
     return 0;
 }
