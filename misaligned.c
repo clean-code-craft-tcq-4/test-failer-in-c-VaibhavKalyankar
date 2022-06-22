@@ -18,11 +18,12 @@ int printColorMap() {
 
 int GetPairNumberFromColor(MajorColor Majorcolor, MinorColor Minorcolor)
 {
-    return Mojorcolor * 5 + Minorcolor + 1;
+    return Majorcolor * 5 + Minorcolor + 1;
 }
 
 void TestPairtoNumber(MajorColor Majorcolor, MinorColor Minorcolor,int ExpPairNumber)
 {
+    int PairNumber;
     PairNumber = GetPairNumberFromColor(Majorcolor,Minorcolor);
     assert(PairNumber == ExpPairNumber);
 }
