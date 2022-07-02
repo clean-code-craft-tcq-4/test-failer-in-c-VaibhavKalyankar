@@ -11,7 +11,7 @@ int networkAlertStub(float celcius) {
     if(celcius <= THRESHOLD_CELCIUS)
         return OK;
     else
-        return NOT_OK
+        return NOT_OK;
 }
 
 #if(PRODUCTION_ENABLED != PRODUCTION_MODE_ON)
