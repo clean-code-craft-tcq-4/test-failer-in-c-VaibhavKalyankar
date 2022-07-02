@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include <alerter.h>
+#include "alerter.h"
 
 int alertFailureCount = 0;
 void TestAlertFailureCount();
