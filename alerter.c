@@ -19,6 +19,7 @@ void TesteralertinCelcius(float Celcius,int ReturnCode)
 {
     assert(Celcius<ReturnCode);
 }
+#endif
 
 void alertInCelcius(float farenheit) {
     float celcius = (farenheit - 32) * 5 / 9;
