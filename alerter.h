@@ -1,0 +1,7 @@
+#include <stdio.h>
+#define THRESHOLD_CELCIUS 200
+#define OK 200
+#define NOT_OK 500
+#define PRODUCTION_MODE_ON 1
+#define PRODUCTION_MODE_OFF 0
+#define PRODUCTION_ENABLED PRODUCTION_MODE_OFF
