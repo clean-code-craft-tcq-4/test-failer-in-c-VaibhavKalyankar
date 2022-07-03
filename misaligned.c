@@ -2,8 +2,7 @@
 #include <assert.h>
 #include "misaligned.h"
 
-enum MajorColor {WHITE,RED,BLACK,YELLOW,VIOLET};
-enum MinorColor {BLUE,ORANGE,GREEN,BROWN,SLATE};
+
 int GetPairNumberFromColor(MajorColor, MinorColor);
 void TestPairtoNumber(MajorColor, MinorColor,int);
 const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
