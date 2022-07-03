@@ -39,7 +39,7 @@ void TestPairtoNumber(MajorColor Majorcolor, MinorColor Minorcolor,int ExpPairNu
     colorpair.majorColor = Majorcolor;
     colorpair.minorColor = Minorcolor;
     int PairNumber;
-    PairNumber = GetPairNumberFromColor(Majorcolor,Minorcolor);
+    PairNumber = GetPairNumberFromColor(&colorpair);
     assert(PairNumber == ExpPairNumber);
 }
 
