@@ -3,7 +3,7 @@
 #include "misaligned.h"
 
 
-int GetPairNumberFromColor(MajorColor, MinorColor);
+int GetPairNumberFromColor(const ColorPair *);
 void TestPairtoNumber(MajorColor, MinorColor,int);
 const char* majorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* minorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
