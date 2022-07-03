@@ -15,7 +15,7 @@ int NumberofMinorColors = sizeof(minorColor) / sizeof(minorColor[0]);
 int printColorMap() {
     int MajorColorCnt,MinorColorCnt=0;
     ColorPair ColorPairRef;
-    printf("Reference Manual\n");
+    printf("\nReference Manual\n");
    
     for(MajorColorCnt = 0; MajorColorCnt < NumberofMajorColors; MajorColorCnt++) {
         for(MinorColorCnt = 0; MinorColorCnt < NumberofMinorColors; MinorColorCnt++) {
